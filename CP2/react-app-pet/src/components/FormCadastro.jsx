@@ -25,6 +25,25 @@ export default function FormCadastro(props) {
                     <option value="Grande">Grande</option>
                 </select>
             </div>
+            <div>
+                <label>Nome do Dono</label>
+                <input type="text" name="dono" value={props.pet.dono} onChange={props.digit}/>
+            </div>
+            <div>
+                <label>Telefone do Dono</label>
+                <input type="tel" name="telefone" value={props.pet.telefone} onChange={props.digit}/>
+            </div>
+            <div>
+                <label>Imagem do Pet</label>
+                <input type="file" name="imagem" value={props.pet.imagem} onChange={props.digit}/>
+            </div>
+            <div>
+                <label>Observações</label>
+                <textarea name="observacao" cols="30" rows="10" value={props.pet.observacao} onChange={props.digit}></textarea><br/> 
+            </div>
+            <div>
+                <button type="submit">Cadastrar</button>
+            </div>
         </form>
     </div>
     );
