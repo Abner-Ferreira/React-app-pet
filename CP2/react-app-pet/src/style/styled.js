@@ -9,24 +9,24 @@ export const DivPet = styled.div`
     text-align: center;
     width: 400px;
     height: fit-content;
-    margin: 20px;
+    margin: 10px 20px 10px 20px;
     display: inline-table;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 `
 export const DivCadastro = styled.div`
     width:auto;
     background-color:#fff1f3 ;
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
 `
 export const DivFormularios = styled.div`
-    width: 93%;
+    width: 20%;
     height: fit-content;
     background-color: #FFE4B5;
     border: solid 1px #333;
     box-shadow: 5px 5px 5px #333;
     padding: 20px;
-    margin: 5px;
+    margin: 10px 20px 10px 20px;
     display: inline-table;
     border-radius: 10px;
 
@@ -44,6 +44,7 @@ export const Img= styled.img`
     margin-right: 20px;
     min-height: 200px;
     max-height: 250px;
+    margin: 5px 0px 5px 0px
 `
 export const DivDadosPet = styled.div`
     display: flexbox;
