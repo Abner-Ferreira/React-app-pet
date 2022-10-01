@@ -74,3 +74,13 @@ export default function PetCadastro() {
     function removePet(index) {
         setPet(pet.filter((_, i) => i !== index))
     }
+
+    return (
+        <DivCadastro>
+            <FormCadastro addPet={addPet} pet={pets} digit={pega} />
+            {pet.map((pet, index) => (
+                <Pet pet={pet} remove={() => removePet(index)} key={index} />
+            ))}
+        </DivCadastro>
+    )
+}
