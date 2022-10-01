@@ -1,8 +1,10 @@
 import React from "react";
+import { DivFormularios } from '../style/styled';
 
 export default function FormCadastro(props) {
     return (
         <div>
+        <DivFormularios>
         <form method="post" onSubmit={props.addPet}>
             <div>
                 <label>Nome do Pet</label>
@@ -45,6 +47,7 @@ export default function FormCadastro(props) {
                 <button type="submit">Cadastrar</button>
             </div>
         </form>
+        </DivFormularios>
     </div>
     );
     }
