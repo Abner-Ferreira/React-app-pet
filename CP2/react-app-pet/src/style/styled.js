@@ -53,3 +53,39 @@ export const DivDadosPet = styled.div`
     height: fit-content;
     justify-content: space-between;
 `
+export const DivDadosPet2 = styled.div`
+    align-items: center;
+    background-color: #FFE4B5;
+    border: solid 1px #333;
+    height: fit-content;
+    width: 30%;
+    border-radius: 10px;
+`
+
+export const DivDadosPetH1 = styled.div`
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #FFE4B5;
+    border: solid 2px #333;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+`
+export const DivDadosDonoPet = styled.div`
+    display: flexbox;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+`
+export const DivDadosDonoPet2 = styled.div`
+    align-items: center;
+    background-color:	#FFFEDD;
+    border: solid 1px #333;
+    height: fit-content;
+    width: 45%;
+    border-radius: 10px;
+`
+export const DivDadosObservacao = styled.div`
+    background-color: #FFE4B5;
+    border-radius: 10px;
+` 
