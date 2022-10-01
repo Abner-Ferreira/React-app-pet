@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import Pet from "./Pet"
 import FormCadastro from "./FormCadastro"
-import { DivCadastro } from "../style/styled"
 import chewie from "../img/chewie.webp"
 
 export default function PetCadastro() {
@@ -76,11 +75,11 @@ export default function PetCadastro() {
     }
 
     return (
-        <DivCadastro>
+        <div>
             <FormCadastro addPet={addPet} pet={pets} digit={pega} />
             {pet.map((pet, index) => (
                 <Pet pet={pet} remove={() => removePet(index)} key={index} />
             ))}
-        </DivCadastro>
+        </div>
     )
 }
