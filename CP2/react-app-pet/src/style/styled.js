@@ -1,18 +1,5 @@
 import styled from 'styled-components'
 
-export const DivPet = styled.div`
-    background-color : #B8860B;
-    border: solid 3px #333;
-    box-shadow: 5px 5px 5px #333;
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-    width: 400px;
-    height: fit-content;
-    margin: 10px 20px 10px 20px;
-    display: inline-table;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-`
 export const DivCadastro = styled.div`
     width:auto;
     background-color:#fff1f3 ;
@@ -35,6 +22,21 @@ export const DivFormulario= styled.div`
     display: flex;
     flex-direction: column;
 `
+
+export const DivPet = styled.div`
+    background-color : #B8860B;
+    border: solid 3px #333;
+    box-shadow: 5px 5px 5px #333;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: fit-content;
+    margin: 10px 20px 10px 20px;
+    display: inline-table;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+`
+
 export const Img= styled.img`
     object-fit: contain;
     border:black double 5px;
@@ -44,7 +46,7 @@ export const Img= styled.img`
     margin-right: 20px;
     min-height: 200px;
     max-height: 250px;
-    margin: 5px 0px 5px 0px
+    margin: 5px 0px 5px 0px;
 `
 export const DivDadosPet = styled.div`
     display: flexbox;
