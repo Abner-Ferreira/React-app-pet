@@ -1,9 +1,11 @@
 import React from 'react'
 import { FiX as DEL } from 'react-icons/fi'
+import { DivPet } from '../style/styled';
 
 export default function Pet(props) {
     return (
         <div>
+            <DivPet>
             <div>
                 <h1>{props.pet.titulo}</h1>
             </div>
@@ -22,6 +24,7 @@ export default function Pet(props) {
                 <p>Observação: <br /> {props.pet.observacao}</p>
             </div>
             <button onClick={props.remove}><DEL/></button>
+            </DivPet>
         </div>
     )
 }

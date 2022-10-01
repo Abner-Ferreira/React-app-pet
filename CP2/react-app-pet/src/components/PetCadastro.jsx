@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import Pet from "./Pet"
 import FormCadastro from "./FormCadastro"
 import chewie from "../img/chewie.webp"
+import { DivDadosPet } from "../style/styled"
 
 export default function PetCadastro() {
     const [pet, setPet] = useState([
@@ -75,11 +76,13 @@ export default function PetCadastro() {
     }
 
     return (
+        <DivDadosPet>
         <div>
             <FormCadastro addPet={addPet} pet={pets} digit={pega} />
             {pet.map((pet, index) => (
                 <Pet pet={pet} remove={() => removePet(index)} key={index} />
             ))}
         </div>
+        </DivDadosPet>
     )
 }
